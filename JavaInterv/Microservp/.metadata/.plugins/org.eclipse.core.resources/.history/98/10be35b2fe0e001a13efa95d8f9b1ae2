@@ -1,0 +1,26 @@
+package com.emp.portal;
+
+import static org.mockito.Mockito.mock;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+
+import com.emp.portal.service.EmployeeService;
+import com.emp.portal.service.EmployeeServiceHardCodedImpl;
+
+public class EmployeeServiceMockTest {
+
+	@Mock
+	EmployeeService empService;
+	
+	@InjectMocks
+	EmployeeServiceHardCodedImpl empServiceImpl;
+	
+	@Test
+	public void getAllEmployees() {
+		
+		EmployeeService empServiceMock = mock(EmployeeService.class);
+		empServiceMock.getAllEmployees()
+	}
+}

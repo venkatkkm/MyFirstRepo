@@ -1,0 +1,9 @@
+
+create table employee(
+id BIGINT PRIMARY KEY AUTO_INCREMENT,
+First_Name varchar(20),
+Last_Name varchar(30),
+Gender varchar(10),
+Date_Of_Birth datetime(30),
+Department varchar(10)
+)

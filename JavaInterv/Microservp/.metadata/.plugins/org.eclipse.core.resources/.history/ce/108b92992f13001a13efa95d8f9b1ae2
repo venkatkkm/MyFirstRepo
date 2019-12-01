@@ -1,0 +1,67 @@
+package com.emp.portal;
+
+import java.time.LocalDate;
+import java.time.temporal.TemporalAccessor;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.junit.Assert;
+
+import com.emp.portal.model.Employee;
+import com.emp.portal.service.EmployeeService;
+import com.emp.portal.service.EmployeeServiceHardCodedImpl;
+
+public class EmployeeServiceMockTest {
+
+	@Mock
+	EmployeeService empServiceMock;
+	
+	@InjectMocks
+	EmployeeServiceHardCodedImpl empServiceImpl;
+	
+	@Test
+	public void testGetAllEmployees() {
+		
+		Employee emp = new Employee(0L, "Ram","Krishna","male",LocalDate.parse("1995-07-15"), "Sales" );
+		Employee emp2 = new Employee(1L, "Jai","Shankar","male", LocalDate.parse("1994-08-20"),"IT" ); 
+		Employee emp3 = new Employee(2L, "Ramya","Krishna","female",LocalDate.parse("1990-07-15"), "HR" );
+		ArrayList<Employee> empList = new ArrayList<Employee>();    
+	    empList.add(emp);
+	    empList.add(emp2);
+	    empList.add(emp3);
+
+	    Mockito.when(empServiceMock.getAllEmployees()).thenReturn(empList);
+	    empServiceImpl.getAllEmployees();
+	    assertEquals(empServiceImpl.getAllEmployees().get(0), emp);
+	    Mockito.verify(empServiceMock).getAllEmployees();
+	}
+	
+	private void assertEquals(Employee employee, Employee emp) {
+		
+	}
+
+	@Test
+	public void registerEmployee() {
+		
+		Employee emp = new Employee(0L, "Ram","Krishna","male",LocalDate.parse("1995-07-15"), "Sales" );
+		Employee emp2 = new Employee(1L, "Jai","Shankar","male", LocalDate.parse("1994-08-20"),"IT" ); 
+		Employee emp3 = new Employee(2L, "Ramya","Krishna","female",LocalDate.parse("1990-07-15"), "HR" );
+		ArrayList<Employee> empList = new ArrayList<Employee>();    
+	    empList.add(emp);
+	    empList.add(emp2);
+	    empList.add(emp3);
+
+	    Mockito.when(empServiceMock.registerEmp(emp)).thenReturn(emp);
+	    empServiceImpl.registerEmp(emp);
+	    assertEquals(((Employee) empServiceImpl.registerEmp(emp)));
+	    Mockito.verify(empServiceMock).getAllEmployees();
+	}
+
+	private void assertEquals(Employee employee) {
+		
+	}
+}

@@ -1,0 +1,44 @@
+package com.emp.portal;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.junit.Assert;
+
+import com.emp.portal.model.Employee;
+import com.emp.portal.service.EmployeeService;
+import com.emp.portal.service.EmployeeServiceHardCodedImpl;
+
+public class EmployeeServiceMockTest {
+
+	@Mock
+	EmployeeService empServiceMock;
+	
+	@InjectMocks
+	EmployeeServiceHardCodedImpl empServiceImpl;
+	
+	@Test
+	public void testGetAllEmployees() {
+		
+		Employee emp = new Employee(0L, "Ram","Krishna","male",LocalDate.parse("1995-07-15"), "Sales" );
+		Employee emp2 = new Employee(1L, "Jai","Shankar","male", LocalDate.parse("1994-08-20"),"IT" ); 
+		Employee emp3 = new Employee(2L, "Ramya","Krishna","female",LocalDate.parse("1990-07-15"), "HR" );
+		ArrayList<Employee> empList = new ArrayList<Employee>();    
+	    empList.add(emp);
+	    empList.add(emp2);
+	    empList.add(em3);
+
+	    Mockito.when(initialData.getProducts()).thenReturn(productList);
+	    pro.persistProduct(product);
+	    assertEquals(pro.getProducts().get(0), product);
+	    Mockito.verify(initialData).addProduct(product);
+		//Assert.assertEquals("EmpServiceCall",empServiceImpl.getAllEmployees().size(), 3);
+		//DataService dataServiceMock = mock(DataService.class);
+			when(empServiceMock.getAllEmployees()).thenReturn(new int[] { 24, 15, 3 });
+			assertEquals(24, empServiceImpl.getAllEmployees());		
+	}
+}

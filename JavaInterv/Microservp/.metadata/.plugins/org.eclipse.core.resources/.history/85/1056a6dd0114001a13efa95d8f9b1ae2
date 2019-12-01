@@ -1,0 +1,9 @@
+package com.emp.portal.controller;
+
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+
+@RunWith(SpringRunner.class)
+@WebMvcTest(value=EmployeeControllerTest.class)
+public class EmployeeControllerTest {
+
+}

@@ -1,0 +1,36 @@
+package com.emp.portal;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+
+import com.emp.portal.model.Employee;
+import com.emp.portal.service.EmployeeService;
+import com.emp.portal.service.EmployeeServiceHardCodedImpl;
+
+public class EmployeeServiceMockTest {
+
+	@Mock
+	EmployeeService empService;
+	
+	@InjectMocks
+	EmployeeServiceHardCodedImpl empServiceImpl;
+	
+	@Test
+	public void testGetAllEmployees() {
+		List<Employee> lst = new ArrayList<>();
+		Mockito.when(Collections.sort(lst,(e1,e2) -> e1.getFirstName().compareToIgnoreCase(e2.getFirstName()))).thenReturn(lst);
+		
+		/*
+		 * when(empService.getAllEmployees()).thenReturn(List<Employee>); List<Employee>
+		 * ls = empServiceImpl.getAllEmployees(); assertEqual(ls);
+		 */
+		expect(empServiceImpl.getAllEmployees().size(), 5);
+		
+	}
+}

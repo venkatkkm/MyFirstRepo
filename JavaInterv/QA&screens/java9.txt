@@ -1,0 +1,32 @@
+ #java8 #interview #Question #below #answers
+#What new features were added in Java 8?
+#What is a method reference?
+#What is the meaning of String::valueOf expression?
+#What is Optional? How can it be used?
+#Describe some of the functional interfaces in the standard library.
+#What is a functional interface? What are the rules of defining a functional interface?
+#What is a default method and when do we use it?
+#Will the following code compile?
+
+@FunctionalInterface
+
+public interface Function2<T, U, V> {
+
+public V apply(T t, U u);
+
+default void count() {
+
+// increment counter
+
+}
+
+}
+#What is a Lambda Expression and what is it used for
+#Explain the syntax and characteristics of a Lambda Expression
+#What is Nashorn in Java8?
+#What is jjs?
+#What is a stream? How does it differ from a collection?
+#What is the difference between intermediate and terminal operations?
+#What is the difference between map and flatMap stream operation?
+#What is stream pipelining in Java 8?
+#Tell us about the new Date and Time API in Java 8

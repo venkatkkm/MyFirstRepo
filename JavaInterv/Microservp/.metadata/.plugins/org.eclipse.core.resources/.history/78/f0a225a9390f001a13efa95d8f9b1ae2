@@ -1,0 +1,28 @@
+package com.emp.portal;
+
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+
+import com.emp.portal.service.EmployeeService;
+import com.emp.portal.service.EmployeeServiceHardCodedImpl;
+
+public class EmployeeServiceMockTest {
+
+	@Mock
+	EmployeeService empService;
+	
+	@InjectMocks
+	EmployeeServiceHardCodedImpl empServiceImpl;
+	
+	@Test
+	public void testGetAllEmployees() {
+		
+		when(empService.getAllEmployees()).thenReturn(List<Employee>);
+		List<Employee> ls = empServiceImpl.getAllEmployees();
+		assertEqual(ls);
+	}
+}

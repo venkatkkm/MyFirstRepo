@@ -1,0 +1,62 @@
+1) find duplicate characters in string.
+
+2) two string anagram or not.
+
+3) count the number of word in string.
+
+4) count the total number of occurences of a given charachers in string with out using any loop.
+class Demo
+{
+    public static void main(String[] args)
+    {
+        String str = "Java is java again java again";
+        int count = str.length() - str.replace("a", "").length();
+        System.out.println("Number of occurances of 'a' in "+s+" = "+count);
+    }
+}
+
+5) reverse string.
+
+6) remove all white spaces.
+
+7) first non repeat characters in a string.
+
+8) using iteration and recuration.
+
+9) how to check if a string contais only digits.
+
+10) to reverse a given string with preserving the position of spaces.
+
+11) reverse each word fora given string.
+
+12) count number of vowels and consontents in a string.
+
+13) convert string to integer ,integer to string.
+
+14) to find all permutaions of string.
+
+15) how to check if string is pallandrom.
+
+16) remove duplicate characters in string.
+
+17) to append agiven string to a text file.
+
+18) to check if a string contains another string.
+
+19) to given characters in a given string.
+
+20) how to sort string in java.
+
+21) how to you find most repeated work in a text file in java.
+
+22) how do you find first repeated and non repeated characher in the given string.
+
+23) write a java program to find number of charachers ,number of words and number of lines in a text file.
+
+24)program to sort a map by value
+
+25)find common elements in array
+
+26)second largest element of array
+27)find duplicate num in array
+28)

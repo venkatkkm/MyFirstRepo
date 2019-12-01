@@ -1,0 +1,5 @@
+package com.emp.portal.service;
+
+public class EmployeeServiceImpl {
+
+}

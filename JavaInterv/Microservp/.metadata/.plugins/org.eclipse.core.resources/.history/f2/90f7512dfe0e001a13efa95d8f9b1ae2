@@ -1,0 +1,11 @@
+package com.emp.portal;
+
+
+
+public class EmployeeServiceMockTest {
+
+	@Test
+	public void getAllEmployees() {
+		
+	}
+}

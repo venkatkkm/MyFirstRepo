@@ -1,0 +1,5 @@
+package com.emp.portal.swagger;
+
+public class SwaggerConfig {
+
+}

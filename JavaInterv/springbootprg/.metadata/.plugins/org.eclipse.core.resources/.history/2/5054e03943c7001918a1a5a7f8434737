@@ -1,0 +1,6 @@
+package com.boot.location.util;
+
+public interface EmailUtil {
+
+	void sendEmail(String toAddress,String sub,String body)
+}

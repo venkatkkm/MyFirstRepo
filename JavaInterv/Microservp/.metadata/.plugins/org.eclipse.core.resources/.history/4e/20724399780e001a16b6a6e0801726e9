@@ -1,0 +1,5 @@
+package com.emp.portal.repository;
+
+public interface EmployeeRepository {
+
+}

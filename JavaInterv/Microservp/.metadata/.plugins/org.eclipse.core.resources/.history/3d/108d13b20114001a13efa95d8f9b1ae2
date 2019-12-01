@@ -1,0 +1,8 @@
+package com.emp.portal.controller;
+
+
+@RunWith(SpringRunner.class)
+@WebMvcTest(value=TicketBookingController.class,secure = false)
+public class EmployeeControllerTest {
+
+}

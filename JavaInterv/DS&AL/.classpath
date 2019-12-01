@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="10.1 LinearQueue_LinkedList.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="10.1 QuickSort.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="11.1 HeapSort.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="13.1 2DimentionalArray.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="13.1 TopologicalSort.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="18.1 Dijkstra.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="21.1 BellmanFord2.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="25.1 BinaryTree.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="27.1 FloydWarshall.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="3.1 LinearQueueArray.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="32.1 DisjointSet.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="33.1 Kruskal4.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="35.1 Prims.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="4.1 BubbleSort.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="44.1 LinkedList.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="5.1 SelectionSort.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="5.1 Stack.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="6.1 BFS.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="6.1 BST.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="6.1 InsertionSort.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="7.1 BucketSort.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="7.1 CircularQueueArray.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="7.1 SingleDimentionalArray.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="8.1 DFS.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="8.1 Hashing.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="src" path="8.1 MergeSort.zip/Algorithms and Data Structures/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

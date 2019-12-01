@@ -1,0 +1,24 @@
+#what is diff between jdbc and hibernate. and why we are used hibernate.
+#what is ORM (object relational mapping).
+#what is session.
+#what is Session Factory.
+#what is diff between session and session factory.
+#why should we need to make sessionfactory obj of hibernate as singleton.
+#what is dialect in hibernate. and how it works.
+#what is Caching in hibernate.
+#what is first level cache
+#what is second level cache.
+#what is diff between first level cache and second level cache.
+#what is mapping file how to write this.
+#what is configuration file and how to write this.
+#what is cascade in hibernate.
+#what is orphan record
+#what is inverse in hibernate
+#what is lifecycle of hibernate or state of an object.
+#what is HQL.(hibernate Query language).
+#what is Criteria in hibernate.
+#Diff between getOpen session and getCurrent session.
+#what is diff between session.Get() method and session.Load() method.
+#what is session.save() and session.persist().
+#what is session.upadate().
+#what is session.save or saveorupadate().

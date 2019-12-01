@@ -1,0 +1,18 @@
+#what is IOC (inversion of control) Container.
+#what is dependency injection. types of dependency injection.
+#diff between BeanFactory and application context.
+#what is bean autowiring and types of autowire modes.
+#what is bean scope. and types of bean scope. diff between singletone and prototype bean scope.
+#what is bean life cycle .
+#what is Aop. what is the principles of Aop. and where we apply Aop in projects.
+#what do you mean by MVC.
+#what is spring MVC flow. how it works.
+#what is controller. how many types of controller. which controller u are used in project. and how to create controller class in spring mvc.
+#whtat is dispather servlet.
+#what is handler mapping . and which handler mapping u are used in project.
+#what is view resolver. and which view resolver u are used in project.
+#what is model and view.
+#How to handle views in Spring MVC using XML.
+#What is minimum web.xml configuration to run Spring MVC.
+#which annotation u are used in project. can us list them.
+#what is spring security. how it works.
